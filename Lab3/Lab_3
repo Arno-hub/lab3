@@ -1,0 +1,118 @@
+Question 4.
+Il y a 3 fichiers au totals: README.md , Microsoft, answering-machine.text et 1
+répertoire : sardar      
+Taille :
+sardar : 4096 Oct
+README.md : 24 Oct
+Microsoft : 34359 Oct
+answering-machine.text : 70408 Oct
+
+Question 5.
+La taille du répertoire sardar est correcte car un repertoire sous linux = fichier et ce répertoire contient des liste de fichiers texte  c'est pour cela que le volume de ce répertoire n'est pas important 
+
+Question 6.
+du -hs --> Le volume allouer sur le disque dure pour Microsoft avec cette commande ( 36000 oct) ne représente pas la vrai taille de ce fichier 
+Avec la commande ls -lrt on obtient la vrai  taille qu'occupe le fichier microsoft ( 34359 Oct ) 
+
+Question 7.
+Info sur les accés du fichier, le dernier emplacement, les derniers changements 
+
+Question 8.
+Pour lister les fichiers cachés on utilise la commande ls -a --> On remarque qu'il y a un fichier caché qui commence par un point --> .lightbulb 
+
+Question 9. 
+On utilise la commande ls -rt, avec r pour reverse --> on énumère la date de création d'un fichier du plus anciens au plus récent 
+( ls -t --> énumérer du plus récent au plus ancien 
+
+Question 10. 
+
+On utilise la commande ls -rs 
+
+Question 11.
+
+Ouvrir le fichier texte --> cat ans..
+(quitter un fichier texte sans le save --> : q!
+
+Question 12
+
+lire au fur et à mesure un fichier texte --> more [nom_fichier]
+ 
+Question 13/
+
+Question 14
+
+Aller à la fin d'un fichier texte --> taper la commande--<'G'
+On modifie ensuite --> commande --> 'i' 
+
+Question 15
+Pour rechercher le mot gravelly --> commande /gravelly après avoir ouvert le fichier texte --> On tape 'Entrée' --> dw --> pour le supprimer  
+
+Question 16
+
+Sauvegarder le fichier texte --> echap puis :wq
+
+Question 17
+Passer à l'occurence suivante d'un mot --> commande --> n 
+
+Question 19
+On cherche le mot BEEP --> Appuis sur 'Entrée' --> commande successivement--> ?--> pour remonter le fichier de mot BEEP en BEEP 
+
+Question 20
+
+--> afficher les dernières lignes du fichier --> tail sardar3.txt -n 20
+
+Question 21
+Pour chercher Trust dans Microsoft --> Dans le répertoire 5AS05... --> On tape la commande' grep -i Trust Microsoft '
+
+Question 22
+Pour chercher money dans tous les fichiers --> on se place dans le bureau dans le terminal --> On applique la commande" grep -r money 5AS05-partie3/"
+
+Question 23
+...
+Question 24
+On modifie le nom du fichier .lightbulb --> commande mv .lightbulb lightbulb 
+
+Question 25/26
+Pour déplacer le fichier sardar3.txt qui est dans le répertoire sardar --> vers le répertoire 5AS05-partie3 --> mv sardar3.txt ~/Desktop/5AS05-partie3/
+
+Question 27/28
+Pour supprimer Microsoft --> rm -rf Microsoft ( -rf car le répertoire Microsoft est non vide ) 
+
+Question 29
+Pour copier des répertoires --> cp -r sardar Archive 
+Pour copier des fichiers --> cp lightbulb Archive 
+
+Question 30 
+
+Pour créer des liens symboliques de Sardar dans le fichier courant --> ln -s sardar/* ./ --> * --> Symbolise tous les fichiers de SARDAR et ./ signifie dans le répertoire courant à savoir 5AS05-partie3 
+
+Question 31
+Oui la liste des fichiers SARDAR sont maintenant plus identifiable dans le répertoire courant 
+
+Question 32
+
+Après suppressions de sardar2.txt --> le lien symbolic sardar2.txt dans le fichier courant devient rouge car il ne peut plus pointer vers le fichier parents quia été supprimé dans sardar 
+
+Question 33
+On remarque qu'on ne peut pas enregistrer les modifications effectuées --> on a pas les droits d'accés en écriture 
+
+Question 34
+Pour afficher les droits d'accès des fichiers --> ls -l
+
+Question 35
+Pour changer le droit d'accé en écriture de sardar1 --> chmod u+w sardar1.txt 
+Si on voulait enlever le droit en ecriture --> chmod u-w sardar1.txt 
+
+Question 36
+Pour archiver le dossier 5AS05-lab3 --> commande tar jcvf archive.tar.bz2 5AS05-partie3/
+5AS05-partie3/
+Pour lister les fichier de cette archive --> tar jtvf archive.tar.bz2 
+
+
+ 
+
+
+
+
+ 
+
