@@ -106,7 +106,9 @@ Si on voulait enlever le droit en ecriture --> chmod u-w sardar1.txt
 Question 36
 Pour archiver le dossier 5AS05-lab3 --> commande tar jcvf archive.tar.bz2 5AS05-partie3/
 5AS05-partie3/
-Pour lister les fichier de cette archive --> tar jtvf archive.tar.bz2 
+
+Question 37
+Pour lister les fichier de cette archive sans la décompresser--> vim jtvf archive.tar.bz2 
 
 
  
