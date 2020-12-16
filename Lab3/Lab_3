@@ -30,8 +30,8 @@ On utilise la commande ls -rs
 
 Question 11.
 
-Ouvrir le fichier texte --> cat ans..
-(quitter un fichier texte sans le save --> : q!
+Afficher le contenu d'un fichier texte --> cat ans..
+(quitter un fichier texte sans le save --> : q!)
 
 Question 12
 
